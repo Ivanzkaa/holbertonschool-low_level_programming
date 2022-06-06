@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <string.h>
 /** 
- * main- to print out the messesage and the return; value will come out to 0
+ * main- to print out the messesage, the return; value will come out to 0
+ * puts- to also print out the messesage
+ * strcpy- writing the messesage
  */
 
 int main () {
