@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include <string.h>
+/** 
+ * main- to print out the messesage and the return; value will come out to 0
+ */
 
 int main () {
-	/* using the puts function */
    char str1[55];
 
    strcpy(str1, "\"Programming is like building a multilingual puzzle");
