@@ -1,17 +1,19 @@
 #include <stdio.h>
 #include <string.h>
-/** 
- * main- to print out the messesage, the return; value will come out to 0
- * puts- to also print out the messesage
- * strcpy- writing the messesage
- */
+/**
+* main - a program to print out the messesage
+* puts - to also print out the messesage
+* strcpy- writing the messesage
+* Return: value of 0
+**/
 
-int main () {
-   char str1[55];
+int main(void)
+{
+	char str1[55];
 
-   strcpy(str1, "\"Programming is like building a multilingual puzzle");
+	strcpy(str1, "\"Programming is like building a multilingual puzzle");
 
-   puts(str1);
-   
-   return(0);
+	puts(str1);
+
+	return (0);
 }
