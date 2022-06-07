@@ -7,9 +7,9 @@ int main(void)
 {
 	char ch;
 
-	printf("\nLowercase characters : \n");
+	printf("\nLowercase characters: \n");
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (ch = 'a'; ch <= 'z';)
 	{
 		printf("%c ", ch);
 	}
