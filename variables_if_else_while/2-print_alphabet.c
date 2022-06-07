@@ -2,17 +2,15 @@
 /**
  * main - to print out the function
  * Return: will come out to 0
- **/
+ */
 int main(void)
 {
-	char ch;
-
-	printf("\nLowercase characters: \n");
+	int ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		printf("%c ", ch);
+		putchar(ch);
 	}
-
+	putchar('\n');
 	return (0);
 }
