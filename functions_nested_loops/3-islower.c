@@ -6,15 +6,9 @@
  **/
 int _islower(int c)
 {
-	if (islower(c))
-	{
-		putchar(c);
-	}
+	if (c >= 'a' && c <= 'z')
+	return (1);
+
 	else
-	{
-		return (1);
-		putchar('\n');
-	}
-	putchar('\n');
 	return (0);
 }
