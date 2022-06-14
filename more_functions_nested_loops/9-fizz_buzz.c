@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *main - to print ou the function
+ *main - to print out the function
  *Return: will come out to 0
  **/
 int main(void)
@@ -13,20 +13,19 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz");
+			printf("FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz");
+			printf("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
-			if (i < num)
-
+			if (i == num)
+			{
 				printf("Buzz");
-
-			else
-				printf("Buzz");
+			}
+	printf("Buzz ");
 		}
 		else
 		{
