@@ -5,7 +5,6 @@
  **/
 int main(void)
 {
-	int num = 100;
 	int i;
 
 	i = 1;
@@ -21,7 +20,7 @@ int main(void)
 		}
 		else if (i % 5 == 0)
 		{
-			if (i == num)
+			if (i == 100)
 			{
 				printf("Buzz");
 			}
