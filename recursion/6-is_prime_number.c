@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- * square_root - prints a prime number
+ * prime - prints a prime number
  * @i: variable
  * @n: variable
  * Return: returns the value
  **/
-int square_root(int i, int n)
+int prime(int i, int n)
 {
 
 	if (n % i == 0 && n != i)
 		return (0);
 
 	if (n % i != 0 && i < n)
-		return (square_root(i + 1, n));
+		return (prime(i + 1, n));
 	return (1);
 }
 /**
@@ -26,5 +26,5 @@ int is_prime_number(int n)
 
 	if (n < 2)
 		return (0);
-	return (square_root(i, n));
+	return (prime(i, n));
 }
