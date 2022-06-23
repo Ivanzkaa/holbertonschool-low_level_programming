@@ -1,0 +1,1 @@
+This ia another readme for the tasks in the argc and agrv directory, the argc is to count how many argumnets are in the command line and the argv is a vector array and is a one dimensional array of strings
