@@ -5,7 +5,7 @@
  * @d: pointer to struct dog
  * @name: name of doggo
  * @age: age of doggo
- * @owner: owner of doggo 
+ * @owner: owner of doggo
  * Return: void
  **/
 void init_dog(struct dog *d, char *name, float age, char *owner)
