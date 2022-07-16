@@ -1,11 +1,11 @@
 #include "lists.h"
 /**
  * add_nodeint_end - a new node at the end of the lists
- * @head:head, pointer
+ * @head: head, pointer
  * @n: int
  * Return: address of the new element
  **/
-listint_t *add_nodeint(listint_t **head, const int n)
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *new_node = NULL, *last_node = NULL;
 
