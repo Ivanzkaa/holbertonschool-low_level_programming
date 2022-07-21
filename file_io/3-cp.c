@@ -5,7 +5,7 @@
  * @argv: argument vector
  * Return: 0
  **/
-int main(int argc, char*argv[])
+int main(int argc, char *argv[])
 {
 	int fd_from = 0, fd_to = 0, read_size = 0, from_close = 0, to_close = 0;
 	char buf[BUFSIZ];
