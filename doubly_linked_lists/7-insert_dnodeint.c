@@ -2,7 +2,7 @@
 /**
  * insert_dnodeint_at_index - inserting a new node at any
  * given position
- * @head: double pointer head
+ * @h: double pointer head
  * @idx: int
  * @n: int
  * Return: address of the new node, or NULL if it failed
