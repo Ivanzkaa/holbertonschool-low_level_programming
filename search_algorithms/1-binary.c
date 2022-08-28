@@ -18,10 +18,10 @@ int binary_search(int *array, size_t size, int value)
 	printf("Searching in array:\n");
 	for (i = 0; i < size; i++)
 	{
-        printf("%d, ", array[i]);
+		printf("%d, ", array[i]);
 		if (array[i] == value)
 			return (i);
 	}
-    printf("%d\n", array[i]);
+	printf("%d\n", array[i]);
 	return (-1);
 }
